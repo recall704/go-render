@@ -76,3 +76,15 @@ Run the following to setup the code review tool and create your first review:
     # Wait for the change to be tested and landed automatically.
 
 Use `git cl help` and `git cl help <cmd>` for more details.
+
+
+sample usage:
+
+```go
+import "github.com/luci/go-render/render"
+
+log.Printf("%s", render.Render(container.Resources))
+
+```
+
+
